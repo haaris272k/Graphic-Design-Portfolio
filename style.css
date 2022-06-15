@@ -126,8 +126,8 @@ color: rgb(255, 255, 255);
 /* Quote */
 .quote{
     background-color: rgb(26,32,44);
-    padding: 140px;
-    font-size: 2.5vw;
+    padding: 100px;
+   font-size: 2.5em;
     font-family: "Myriad Pro", sans-serif;
     letter-spacing: 1px;
     word-spacing: 2px;
@@ -138,13 +138,7 @@ color: rgb(255, 255, 255);
     text-align: center;
  
 }
-@media only screen and (max-width: 320px) {
 
-  .quote { 
-     font-size: 10em; 
-  }
-
-}
 
 /* Work section font color */
 #worksec{

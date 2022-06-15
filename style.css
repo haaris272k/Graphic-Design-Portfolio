@@ -138,6 +138,13 @@ color: rgb(255, 255, 255);
     text-align: center;
  
 }
+@media only screen and (max-width: 320px) {
+
+  .quote { 
+     font-size: 10em; 
+  }
+
+}
 
 /* Work section font color */
 #worksec{

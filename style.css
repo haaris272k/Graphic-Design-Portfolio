@@ -1,0 +1,159 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+/* Loading Animation */
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:100%;
+  }
+  .loader-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #242f3f;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .loader {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border: 4px solid #Fff;
+    animation: loader 2s infinite ease;
+  }
+  .loader-inner {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    background-color: #fff;
+    animation: loader-inner 2s infinite ease-in;
+  }
+  
+  @keyframes loader {
+    0% { transform: rotate(0deg);}
+    25% { transform: rotate(180deg);}
+    50% { transform: rotate(180deg);}
+    75% { transform: rotate(360deg);}
+    100% { transform: rotate(360deg);}
+  }
+  
+  @keyframes loader-inner {
+    0% { height: 0%;}
+    25% { height: 0%;}
+    50% { height: 100%;}
+    75% { height: 100%;}
+    100% { height: 0%;}
+  }
+/* ---------------- */
+
+#logo {
+width: 100%;
+height: auto;
+max-width: 100px;
+
+}
+
+/* Waving Hand*/
+
+.wave {
+    animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s;        /* Change to speed up or slow down */
+    animation-iteration-count: infinite;  /* Never stop waving :) */
+    transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+     10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+     20% { transform: rotate(-8.0deg) }
+     30% { transform: rotate(14.0deg) }
+     40% { transform: rotate(-4.0deg) }
+     50% { transform: rotate(10.0deg) }
+     60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+    100% { transform: rotate( 0.0deg) }
+  }
+  
+
+/* Navbar */
+#navbar {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+  
+}
+
+#button {
+color: rgb(255, 255, 255);
+}
+
+/* About me section */
+#aboutme0 {
+    font-size: 35px;
+}
+
+#aboutme1 {
+    font-size: 20px;
+    color: white;
+}
+
+/* Dislplay Image */
+#aboutimage {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 1px;
+    box-shadow: 0 0 10px rgb(3, 18, 156);
+
+}
+
+/* Vector art */
+#art{
+    background-color: rgb(26,32,44);
+    width: auto;
+    height: auto;
+
+
+}
+
+/* Quote */
+.quote{
+    background-color: rgb(26,32,44);
+    padding: 140px;
+    font-size: calc(100% + 1.5vw);
+    font-family: "Myriad Pro", sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-style: italic;
+    text-transform: calc(100% + 1.5vw);
+    color: white;
+    justify-content: space-evenly;
+    text-align: center;
+ 
+}
+
+/* Work section font color */
+#worksec{
+    color: white;
+}
+
+
+/* Heading of Work section */
+#heads {
+    font-size: 40px;
+
+}
+
+
+/* Work description */
+#workdesc {
+    font-size: 20px;
+}
+

@@ -127,7 +127,7 @@ color: rgb(255, 255, 255);
 .quote{
     background-color: rgb(26,32,44);
     padding: 140px;
-    font-size: calc(100% + 1.5vw);
+    font-size: 2.5vw;
     font-family: "Myriad Pro", sans-serif;
     letter-spacing: 1px;
     word-spacing: 2px;
